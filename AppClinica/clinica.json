@@ -1,0 +1,205 @@
+{
+  "nombre": "Clínica Central",
+  "empleados": [
+    {
+      "especialidad": "PEDIATRIA",
+      "fechaInicio": "11/11/2023",
+      "nombre": "Tobias",
+      "apellido": "Vera",
+      "dni": "46504495",
+      "fechaNacimiento": "2005-11-11",
+      "tipo": "Medico"
+    },
+    {
+      "sector": "CONTABILIDAD",
+      "fechaInicio": "07/12/2018",
+      "nombre": "Ulises",
+      "apellido": "Serrano",
+      "dni": "26394850",
+      "fechaNacimiento": "1998-12-05",
+      "tipo": "Administrativo"
+    }
+  ],
+  "pacientes": [
+    {
+      "numeroHistoriaClinica": 1,
+      "obraSocial": "PAMI",
+      "activo": true,
+      "nombre": "Federico",
+      "apellido": "Arena",
+      "dni": "48506846",
+      "fechaNacimiento": "2005-12-10"
+    },
+    {
+      "numeroHistoriaClinica": 2,
+      "obraSocial": "GALENO",
+      "activo": true,
+      "nombre": "Diego",
+      "apellido": "Gorvein",
+      "dni": "48549385",
+      "fechaNacimiento": "2006-12-07"
+    },
+    {
+      "numeroHistoriaClinica": 3,
+      "obraSocial": "OSDE",
+      "activo": true,
+      "nombre": "Matias",
+      "apellido": "Chiacchio",
+      "dni": "46253418",
+      "fechaNacimiento": "2005-07-04"
+    }
+  ],
+  "turnos": [
+    {
+      "numeroTurno": 1,
+      "fecha": "2025-12-19",
+      "hora": "15:00",
+      "paciente": {
+        "numeroHistoriaClinica": 1,
+        "obraSocial": "PAMI",
+        "activo": true,
+        "nombre": "Federico",
+        "apellido": "Arena",
+        "dni": "48506846",
+        "fechaNacimiento": "2005-12-10"
+      },
+      "medico": {
+        "especialidad": "PEDIATRIA",
+        "fechaInicio": "11/11/2023",
+        "nombre": "Tobias",
+        "apellido": "Vera",
+        "dni": "46504495",
+        "fechaNacimiento": "2005-11-11",
+        "tipo": "Medico"
+      },
+      "estado": "PENDIENTE"
+    }
+  ],
+  "historiales": [
+    {
+      "paciente": {
+        "numeroHistoriaClinica": 1,
+        "obraSocial": "PAMI",
+        "activo": true,
+        "nombre": "Federico",
+        "apellido": "Arena",
+        "dni": "48506846",
+        "fechaNacimiento": "2005-12-10"
+      },
+      "entradas": [
+        {
+          "fecha": "2025-12-01",
+          "diagnostico": "Dengue",
+          "observaciones": "Fiebre alta",
+          "medico": {
+            "especialidad": "PEDIATRIA",
+            "fechaInicio": "11/11/2023",
+            "nombre": "Tobias",
+            "apellido": "Vera",
+            "dni": "46504495",
+            "fechaNacimiento": "2005-11-11",
+            "tipo": "Medico"
+          }
+        },
+        {
+          "fecha": "2025-12-01",
+          "diagnostico": "Varicela",
+          "observaciones": "Picazon",
+          "medico": {
+            "especialidad": "PEDIATRIA",
+            "fechaInicio": "11/11/2023",
+            "nombre": "Tobias",
+            "apellido": "Vera",
+            "dni": "46504495",
+            "fechaNacimiento": "2005-11-11",
+            "tipo": "Medico"
+          }
+        }
+      ]
+    },
+    {
+      "paciente": {
+        "numeroHistoriaClinica": 2,
+        "obraSocial": "GALENO",
+        "activo": true,
+        "nombre": "Diego",
+        "apellido": "Gorvein",
+        "dni": "48549385",
+        "fechaNacimiento": "2006-12-07"
+      },
+      "entradas": [
+        {
+          "fecha": "2025-12-03",
+          "diagnostico": "Sifilis",
+          "observaciones": "",
+          "medico": {
+            "especialidad": "PEDIATRIA",
+            "fechaInicio": "11/11/2023",
+            "nombre": "Tobias",
+            "apellido": "Vera",
+            "dni": "46504495",
+            "fechaNacimiento": "2005-11-11",
+            "tipo": "Medico"
+          }
+        }
+      ]
+    },
+    {
+      "paciente": {
+        "numeroHistoriaClinica": 3,
+        "obraSocial": "OSDE",
+        "activo": true,
+        "nombre": "Matias",
+        "apellido": "Chiacchio",
+        "dni": "46253418",
+        "fechaNacimiento": "2005-07-04"
+      },
+      "entradas": [
+        {
+          "fecha": "2026-01-15",
+          "diagnostico": "Fiebre",
+          "observaciones": "Gay",
+          "medico": {
+            "especialidad": "PEDIATRIA",
+            "fechaInicio": "11/11/2023",
+            "nombre": "Tobias",
+            "apellido": "Vera",
+            "dni": "46504495",
+            "fechaNacimiento": "2005-11-11",
+            "tipo": "Medico"
+          }
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "nombreUsuario": "admin",
+      "contraseña": "1234",
+      "rol": "ADMIN",
+      "preguntaSecreta": "color favorito",
+      "respuestaSecreta": "azul"
+    },
+    {
+      "nombreUsuario": "Matias",
+      "contraseña": "1234",
+      "rol": "MEDICO",
+      "preguntaSecreta": "Mascota FAVORITA",
+      "respuestaSecreta": "LANA"
+    },
+    {
+      "nombreUsuario": "Ricardo",
+      "contraseña": "1234",
+      "rol": "ADMINISTRATIVO",
+      "preguntaSecreta": "Comida fav",
+      "respuestaSecreta": "Milanesa"
+    },
+    {
+      "nombreUsuario": "Enzo",
+      "contraseña": "1234",
+      "rol": "ADMINISTRATIVO",
+      "preguntaSecreta": "Rubias o morochas",
+      "respuestaSecreta": "Ucranianas"
+    }
+  ]
+}
