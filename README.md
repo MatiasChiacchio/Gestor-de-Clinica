@@ -36,3 +36,12 @@ En lugar de requerir un servidor de base de datos externo, el sistema utiliza al
 1.  **Clonar el repositorio:**
     ```bash
     git clone [https://github.com/tu-usuario/nombre-del-repo.git](https://github.com/tu-usuario/nombre-del-repo.git)
+
+2.  **Configurar Librerías Externas:** 
+    Si utilizaste librerías externas para JSON, asegúrate de añadirlas al `.classpath` de tu IDE o incluirlas en tu `pom.xml` si usas Maven.
+
+3.  **Abrir el proyecto:** 
+    Importar el proyecto en tu IDE preferido (IntelliJ IDEA, Eclipse o NetBeans).
+
+4.  **Ejecución:** 
+    Localizar y ejecutar la clase principal `Main.java` (o la clase que contenga el método main) para iniciar el sistema.
