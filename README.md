@@ -23,7 +23,6 @@ El sistema modela el entorno clínico real aplicando los pilares de la Orientaci
 *   **Lenguaje Base:** Java
 *   **Paradigma de Diseño:** Programación Orientada a Objetos (POO)
 *   **Persistencia (Base de Datos Local):** Archivos `.json`.
-*   **Manejo de JSON:** (Añadir aquí si usaste Gson, Jackson o similar).
 
 ## 🗄️ Modelo de Persistencia (Archivos JSON)
 
