@@ -1,4 +1,5 @@
 Sistema de Gestión Clínica 🏥
+
 Este proyecto es una aplicación desarrollada en Java diseñada para gestionar de manera eficiente los procesos operativos y administrativos de una clínica médica. El desarrollo se fundamenta en la aplicación rigurosa del paradigma de Programación Orientada a Objetos (POO), asegurando un diseño modular, robusto y fácil de mantener.
 
 🚀 Características Principales
